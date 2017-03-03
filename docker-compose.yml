@@ -7,7 +7,8 @@ services:
     applications:
         image: tianon/true
         volumes:
-            - ../:/var/www
+#            - ../:/var/www
+            - ../data/www:/var/www
 #            - ../sample/:/var/www/sample
 
 ### Workspace Utilities Container ###########################
@@ -19,13 +20,13 @@ services:
                 - INSTALL_XDEBUG=false
                 - INSTALL_SOAP=false
                 - INSTALL_MONGO=false
-                - INSTALL_NODE=false
+                - INSTALL_NODE=true
                 - INSTALL_YARN=false
                 - INSTALL_DRUSH=false
                 - INSTALL_AEROSPIKE_EXTENSION=false
                 - INSTALL_V8JS_EXTENSION=false
                 - COMPOSER_GLOBAL_INSTALL=false
-                - INSTALL_WORKSPACE_SSH=false
+                - INSTALL_WORKSPACE_SSH=true
                 - INSTALL_LARAVEL_ENVOY=false
                 - INSTALL_DEPLOYER=false
                 - INSTALL_LINUXBREW=false
