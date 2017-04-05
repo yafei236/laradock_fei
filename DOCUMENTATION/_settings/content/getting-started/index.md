@@ -43,7 +43,7 @@ git submodule add https://github.com/Laradock/laradock.git
 
 - If you are not using Git yet for your project, you can use `git clone` instead of `git submodule `.
 
-- Note 2: To keep track of your Laradock changes, between your projects and also keep Laradock updated. [Check this](#keep-tracking-Laradock)
+- Note 2: To keep track of your Laradock changes, between your projects and also keep Laradock updated. [Check this](/documentation/#keep-track-of-your-laradock-changes)
 
 
 Your folder structure should look like this:
@@ -137,8 +137,8 @@ You can rename the config files, project folders and domains as you like, just m
 
 If you are using **Docker Toolbox** (VM), do one of the following:
 
-- Upgrade to Docker [Native](https://www.docker.com/products/docker) for Mac/Windows (Recommended). Check out [Upgrading Laradock](#upgrading-laradock)
-- Use Laradock v3.* (Visit the `Laradock-ToolBox` [Branch](https://github.com/laradock/laradock/tree/Laradock-ToolBox)).
+- Upgrade to Docker [Native](https://www.docker.com/products/docker) for Mac/Windows (Recommended). Check out [Upgrading Laradock](/documentation/#upgrading-laradock)
+- Use Laradock v3.\*. Visit the [LaraDock-ToolBox](https://github.com/laradock/laradock/tree/LaraDock-ToolBox) branch. *(outdated)*
 
 <br>
 
@@ -168,7 +168,7 @@ docker-compose up -d nginx mysql
 
 You can select your own combination of containers form the list below:
 
-> `nginx`, `hhvm`, `php-fpm`, `mysql`, `redis`, `postgres`, `mariadb`, `neo4j`, `mongo`, `apache2`, `caddy`, `memcached`, `beanstalkd`, `beanstalkd-console`, `rabbitmq`, `beanstalkd-console`, `workspace`, `phpmyadmin`, `aerospike`, `pgadmin`, `elasticsearch`, `rethinkdb`, `postgres-postgis`, `certbot`, `mailhog`, `minio` and more...!
+> `nginx`, `hhvm`, `php-fpm`, `mysql`, `redis`, `postgres`, `mariadb`, `neo4j`, `mongo`, `apache2`, `caddy`, `memcached`, `beanstalkd`, `beanstalkd-console`, `rabbitmq`, `beanstalkd-console`, `workspace`, `phpmyadmin`, `adminer`, `aerospike`, `pgadmin`, `elasticsearch`, `rethinkdb`, `postgres-postgis`, `certbot`, `mailhog`, `minio` and more...!
 
 *(Please note that sometimes we forget to update the docs, so check the `docker-compose.yml` file to see an updated list of all available containers).*
 
